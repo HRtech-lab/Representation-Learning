@@ -12,7 +12,7 @@ python examples/cosine_retrieval.py
 
 ## Linear CKA
 
-Compare two feature spaces on the same ordered samples using linear CKA.
+Each row represents one sample. Rotating, uniformly scaling and shifting the feature vectors preserves their centred geometry, so linear CKA gives `1.000` when the rows are aligned. Shuffling the rows of just one matrix breaks the sample pairing. With the fixed seed, the score falls to `0.122`.
 
 ```sh
 python examples/linear_cka.py
