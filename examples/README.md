@@ -10,7 +10,7 @@ Evaluate paired embeddings by retrieving each query's partner with cosine simila
 python examples/cosine_retrieval.py
 ```
 
-## Linear cka
+## Linear CKA
 
 Compare two feature spaces on the same ordered samples using linear CKA.
 
